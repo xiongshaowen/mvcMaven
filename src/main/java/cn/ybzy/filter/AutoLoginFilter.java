@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import cn.ybzy.mvcproject.utils.CookieUtils;
-//xiongshaowen
+//
 public class AutoLoginFilter extends HttpFilter {
 
 	@Override
