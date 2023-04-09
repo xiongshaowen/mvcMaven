@@ -20,7 +20,7 @@ public class AutoLoginFilter extends HttpFilter {
 		if(cookies != null && cookies.length > 0) {
 			String username = null;
 			String ssid = null;
-			for(Cookie c:cookies) {
+			for(Cookie c:cookies) {//java
 				if(c.getName().equals("userKey")) {
 					username = c.getValue();
 				}
