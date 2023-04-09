@@ -1,4 +1,4 @@
-package cn.ybzy.filter;
+﻿package cn.ybzy.filter;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import cn.ybzy.mvcproject.utils.CookieUtils;
-//xiongshaowen熊少文
+//xiongshaowen
 public class AutoLoginFilter extends HttpFilter {
 
 	@Override
